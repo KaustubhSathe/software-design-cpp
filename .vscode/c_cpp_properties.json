@@ -15,6 +15,7 @@
             "cStandard": "c17",
             "cppStandard": "c++17",
             "intelliSenseMode": "gcc-x64",
+<<<<<<< HEAD
             "compilerPath": "C:/ProgramData/chocolatey/bin/g++.exe",
             "configurationProvider": "ms-vscode.cmake-tools",
             "browse": {
@@ -23,6 +24,9 @@
                     "C:/src/vcpkg/installed/x86-windows/include/**"
                 ]
             }
+=======
+            "compilerPath": "/usr/bin/g++"
+>>>>>>> d6832e621eedcdb053ef9a813a7556fa7c5fd01a
         }
     ],
     "version": 4
