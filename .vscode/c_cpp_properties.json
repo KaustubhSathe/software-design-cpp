@@ -3,7 +3,8 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "C:/src/vcpkg/installed/x86-windows/include/**"
             ],
             "defines": [
                 "_DEBUG",
@@ -14,7 +15,14 @@
             "cStandard": "c17",
             "cppStandard": "c++17",
             "intelliSenseMode": "gcc-x64",
-            "compilerPath": "C:/MinGW/bin/g++.exe"
+            "compilerPath": "C:/ProgramData/chocolatey/bin/g++.exe",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "C:/src/vcpkg/installed/x86-windows/include/**"
+                ]
+            }
         }
     ],
     "version": 4
